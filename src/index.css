@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'GOTHVETICA';
+  src:url(/src/assets/Fonts/Gothvetica.ttf);
+}
+@font-face {
+  font-family: 'EXO2';
+  src:url(/src/assets/Fonts/Exo2.ttf);
+}
+@font-face {
+  font-family: 'BIG-JOHN';
+  src:url(/src/assets/Fonts/BIG-JOHN.otf);
+}
+@font-face {
+  font-family: 'SLIM-JOE';
+  src:url(/src/assets/Fonts/Slim-Joe.otf);
+}
