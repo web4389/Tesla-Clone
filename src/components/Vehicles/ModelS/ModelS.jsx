@@ -102,14 +102,14 @@ const ModelS = () => {
               muted
               loop
               className="max-mb8:hidden w-[100%]"
-              src="../src/assets/Images/modelS/Model-S-Main-Hero.webm"
+              src="../public/assets/Images/modelS/Model-S-Main-Hero.webm"
             ></video>
             <video
               autoPlay
               muted
               loop
               className="mb8:hidden"
-              src="../src/assets/Images/modelS/Model-S-Main-Hero-Mobile.webm"
+              src="../public/assets/Images/modelS/Model-S-Main-Hero-Mobile.webm"
             ></video>
           </div>
 
@@ -187,7 +187,7 @@ const ModelS = () => {
             </h1>
             <div className="overflow-hidden max-mb8:h-[100vh]">
               <img
-                src="../src/assets/Images/modelS/Model-S-Section2.avif"
+                src="../public/assets/Images/modelS/Model-S-Section2.avif"
                 className="max-mb8:h-[100vh] object-cover"
                 alt="Interior of the Future"
               />
@@ -205,7 +205,7 @@ const ModelS = () => {
                 className={`w-[93%] max-mb9:w-[100%] rounded ${
                   section3crousels.one ? "" : "hidden"
                 }`}
-                src="../src/assets/Images/modelS/Model-S-Section3-Carousel1.webm"
+                src="../public/assets/Images/modelS/Model-S-Section3-Carousel1.webm"
               ></video>
               <video
                 autoPlay
@@ -214,7 +214,7 @@ const ModelS = () => {
                 className={`w-[93%] max-mb9:w-[100%] rounded ${
                   section3crousels.two ? "" : "hidden"
                 }`}
-                src="../src/assets/Images/modelS/Model-S-Section3-Carousel2.webm"
+                src="../public/assets/Images/modelS/Model-S-Section3-Carousel2.webm"
               ></video>
               <video
                 autoPlay
@@ -223,7 +223,7 @@ const ModelS = () => {
                 className={`w-[93%] max-mb9:w-[100%] rounded ${
                   section3crousels.three ? "" : "hidden"
                 }`}
-                src="../src/assets/Images/modelS/Model-S-Section3-Carousel3.webm"
+                src="../public/assets/Images/modelS/Model-S-Section3-Carousel3.webm"
               ></video>
               <video
                 autoPlay
@@ -232,7 +232,7 @@ const ModelS = () => {
                 className={`w-[93%] max-mb9:w-[100%] rounded ${
                   section3crousels.four ? "" : "hidden"
                 }`}
-                src="../src/assets/Images/modelS/Model-S-Section3-Carousel4.webm"
+                src="../public/assets/Images/modelS/Model-S-Section3-Carousel4.webm"
               ></video>
               <video
                 autoPlay
@@ -241,7 +241,7 @@ const ModelS = () => {
                 className={`w-[93%] max-mb9:w-[100%] rounded ${
                   section3crousels.five ? "" : "hidden"
                 }`}
-                src="../src/assets/Images/modelS/Model-S-Section3-Carousel5.webm"
+                src="../public/assets/Images/modelS/Model-S-Section3-Carousel5.webm"
               ></video>
             </div>
             <div className="flex flex-col items-center">
@@ -372,7 +372,7 @@ const ModelS = () => {
               <div className="flex justify-between items-center max-mb72:flex-col">
                 <div className="mb72:w-[49%]">
                   <img
-                    src="../src/assets/Images/modelS/Model-S-Section4-img1.avif"
+                    src="../public/assets/Images/modelS/Model-S-Section4-img1.avif"
                     alt="Section4"
                   />
                 </div>
@@ -404,7 +404,7 @@ const ModelS = () => {
                     muted
                     loop
                     className=""
-                    src="../src/assets/Images/modelS/Model-S-Section4-video2.webm"
+                    src="../public/assets/Images/modelS/Model-S-Section4-video2.webm"
                   ></video>
                 </div>
               </div>
@@ -412,7 +412,7 @@ const ModelS = () => {
               <div className="flex justify-between items-center max-mb72:flex-col">
                 <div className="mb72:w-[49%]">
                   <img
-                    src="../src/assets/Images/modelS/Model-S-Section4-img3.avif"
+                    src="../public/assets/Images/modelS/Model-S-Section4-img3.avif"
                     alt="Section4"
                   />
                 </div>
@@ -465,12 +465,12 @@ const ModelS = () => {
           </div>
           <div className="" id="sec5">
             <img
-              src="../src/assets/Images/modelS/Model-S-Section5.jpg"
+              src="../public/assets/Images/modelS/Model-S-Section5.jpg"
               alt="Model-S-Section5"
               className="max-mb72:hidden"
             />
             <img
-              src="../src/assets/Images/modelS/Model-S-Section5-Mobile.jpg"
+              src="../public/assets/Images/modelS/Model-S-Section5-Mobile.jpg"
               alt="Model-S-Section5"
               className="mb72:hidden"
             />

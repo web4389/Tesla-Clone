@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 let count = 0;
 
@@ -99,7 +99,7 @@ const InvenCards = (props) => {
             </div>
             <div className="slideshow w-[100%] flex overflow-hidden" id="car">
               <img
-                src={`../src/assets/Images/Inventory/${featuredImages[currentIndex]}`}
+                src={`../public/assets/Images/Inventory/${featuredImages[currentIndex]}`}
                 alt="ModelY"
               />
             </div>

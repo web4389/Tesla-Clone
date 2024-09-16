@@ -76,8 +76,8 @@ export const Navbar = (props) => {
               className={`${navtoggle ? "hidden" : ""} w-[120px] ml-2`}
               src={`${
                 state.mainstate
-                  ? `../src/assets/Images/Navbar/Tesla-Logo${logoone}.png`
-                  : `../src/assets/Images/Navbar/Tesla-Logo${logotwo}.png`
+                  ? `../public/assets/Images/Navbar/Tesla-Logo${logoone}.png`
+                  : `../public/assets/Images/Navbar/Tesla-Logo${logotwo}.png`
               }`}
               alt="Tesla Logo"
             />
@@ -123,7 +123,7 @@ export const Navbar = (props) => {
           >
             <li
               onClick={onVehicles}
-              className={`px-3 py-3 m-3 cursor-pointer rounded flex justify-between items-center hover:bg-[rgba(122,122,122,0.1)]`}
+              className={`px-3 py-3 m-3 cursor-pointer rounded flex justify-between items-center hover:bg-[rgba(public,122,122,0.1)]`}
             >
               <span>Vehicles</span>
               <i className="fa-solid fa-angle-right opacity-80"></i>
@@ -224,7 +224,7 @@ export const Navbar = (props) => {
             <div className="w-[300px] px-8 mb-6">
               <Link to="/models" className="select-none cursor-pointer ">
                 <img
-                  src="../src/assets/Images/Navbar/modelSlogo.avif"
+                  src="../public/assets/Images/Navbar/modelSlogo.avif"
                   className="select-none w-[100%]"
                   alt="ModelS Logo"
                 />
@@ -274,7 +274,7 @@ export const Navbar = (props) => {
         >
           <Link to={"/charging"} className="select-none cursor-pointer ">
             <img
-              src="../src/assets/Images/Navbar/charging.avif"
+              src="../public/assets/Images/Navbar/charging.avif"
               className="select-none w-[250px]"
               alt="ModelS Logo"
             />
@@ -289,7 +289,7 @@ export const Navbar = (props) => {
         >
           <Link to={"/shop"} className="select-none cursor-pointer ">
             <img
-              src="../src/assets/Images/Navbar/Shop-Charging.avif"
+              src="../public/assets/Images/Navbar/Shop-Charging.avif"
               className="select-none w-[300px]"
               alt="ModelS Logo"
             />

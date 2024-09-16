@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'GOTHVETICA';
-  src:url(/src/assets/Fonts/Gothvetica.ttf);
+  font-family: "GOTHVETICA";
+  src: url(/public/assets/Fonts/Gothvetica.ttf);
 }
 @font-face {
-  font-family: 'EXO2';
-  src:url(/src/assets/Fonts/Exo2.ttf);
+  font-family: "EXO2";
+  src: url(/public/assets/Fonts/Exo2.ttf);
 }
 @font-face {
-  font-family: 'BIG-JOHN';
-  src:url(/src/assets/Fonts/BIG-JOHN.otf);
+  font-family: "BIG-JOHN";
+  src: url(/public/assets/Fonts/BIG-JOHN.otf);
 }
 @font-face {
-  font-family: 'SLIM-JOE';
-  src:url(/src/assets/Fonts/Slim-Joe.otf);
+  font-family: "SLIM-JOE";
+  src: url(/public/assets/Fonts/Slim-Joe.otf);
 }

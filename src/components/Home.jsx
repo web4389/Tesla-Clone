@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Navbar } from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
@@ -64,14 +64,14 @@ const Home = () => {
               muted
               loop
               className="max-md:hidden"
-              src="../src/assets/Images/home/Homepage-Model-Y.mp4"
+              src="../public/assets/Images/home/Homepage-Model-Y.mp4"
             ></video>
             <video
               autoPlay
               muted
               loop
               className="md:hidden"
-              src="../src/assets/Images/home/Homepage-Model-Y-Mobile.mp4"
+              src="../public/assets/Images/home/Homepage-Model-Y-Mobile.mp4"
             ></video>
           </div>
           <div className="">
@@ -137,12 +137,12 @@ const Home = () => {
 
           <div id="model-s">
             <img
-              src="../src/assets/Images/home/Homepage-Model-S.avif"
+              src="../public/assets/Images/home/Homepage-Model-S.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../src/assets/Images/home/Homepage-Model-S-Mobile.avif"
+              src="../public/assets/Images/home/Homepage-Model-S-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />
@@ -185,12 +185,12 @@ const Home = () => {
 
           <div id="model-x">
             <img
-              src="../src/assets/Images/home/Homepage-Model-X.avif"
+              src="../public/assets/Images/home/Homepage-Model-X.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../src/assets/Images/home/Homepage-Model-X-Mobile.avif"
+              src="../public/assets/Images/home/Homepage-Model-X-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />
@@ -213,12 +213,12 @@ const Home = () => {
 
           <div id="cyberTruck">
             <img
-              src="../src/assets/Images/home/Homepage-CyberTruck.avif"
+              src="../public/assets/Images/home/Homepage-CyberTruck.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../src/assets/Images/home/Homepage-CyberTruck-Mobile.avif"
+              src="../public/assets/Images/home/Homepage-CyberTruck-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />
@@ -244,12 +244,12 @@ const Home = () => {
 
           <div id="accessories">
             <img
-              src="../src/assets/Images/home/Homepage-Accessories.avif"
+              src="../public/assets/Images/home/Homepage-Accessories.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../src/assets/Images/home/Homepage-Accessories-Mobile.avif"
+              src="../public/assets/Images/home/Homepage-Accessories-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />

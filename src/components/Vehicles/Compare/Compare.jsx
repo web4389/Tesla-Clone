@@ -108,12 +108,12 @@ const Compare = () => {
         <article className="w-[100%]">
           <section className="flex w-[100%] justify-center overflow-hidden -mt-10">
             <img
-              src={`../src/assets/Images/Compare/compare-model-${selectedcar1}.avif`}
+              src={`..//assets/Images/Compare/compare-model-${selectedcar1}.avif`}
               alt="Model S"
               className="w-[60%] max-mb6:w-[100%] -mr-[16.5%] max-mb6:-mr-[27%]"
             />
             <img
-              src={`../src/assets/Images/Compare/compare-model-${selectedcar2}.avif`}
+              src={`..//assets/Images/Compare/compare-model-${selectedcar2}.avif`}
               alt="Model S"
               className="w-[60%] max-mb6:w-[100%] -ml-[16.5%] max-mb6:-ml-[27%]"
             />

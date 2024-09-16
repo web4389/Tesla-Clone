@@ -10,7 +10,7 @@ const ShopCards = (props) => {
       <figure className="w-[31%] max-md:w-[48%] flex flex-col">
         <Link to={"/shoporder"}>
           <img
-            src={`../src/assets/Images/Shop/${
+            src={`../public/assets/Images/Shop/${
               ImgHover ? x.imgHover : x.img
             }.avif`}
             alt=""
