@@ -35,21 +35,21 @@ const Charging = () => {
             muted
             loop
             className="w-[100%] h-[100vh] max-md:hidden object-cover"
-            src="../public/assets/Images/Charging/Main-Hero-Desktop.mp4"
+            src="../assets/Images/Charging/Main-Hero-Desktop.mp4"
           ></video>
           <video
             autoPlay
             muted
             loop
             className="max-mb5:hidden md:hidden"
-            src="../public/assets/Images/Charging/Main-Hero-Tablet.mp4"
+            src="../assets/Images/Charging/Main-Hero-Tablet.mp4"
           ></video>
           <video
             autoPlay
             muted
             loop
             className="mb5:hidden"
-            src="../public/assets/Images/Charging/Main-Hero-Mobile.mp4"
+            src="../assets/Images/Charging/Main-Hero-Mobile.mp4"
           ></video>
         </header>
         <aside className="text-white absolute text-center h-[75%] w-[100%] flex flex-col top-[14.5%] font-exo2 justify-between items-center">

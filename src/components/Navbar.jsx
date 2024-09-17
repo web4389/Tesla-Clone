@@ -76,8 +76,8 @@ export const Navbar = (props) => {
               className={`${navtoggle ? "hidden" : ""} w-[120px] ml-2`}
               src={`${
                 state.mainstate
-                  ? `../public/assets/Images/Navbar/Tesla-Logo${logoone}.png`
-                  : `../public/assets/Images/Navbar/Tesla-Logo${logotwo}.png`
+                  ? `../assets/Images/Navbar/Tesla-Logo${logoone}.png`
+                  : `../assets/Images/Navbar/Tesla-Logo${logotwo}.png`
               }`}
               alt="Tesla Logo"
             />

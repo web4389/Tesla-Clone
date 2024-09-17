@@ -10,9 +10,7 @@ const ShopCards = (props) => {
       <figure className="w-[31%] max-md:w-[48%] flex flex-col">
         <Link to={"/shoporder"}>
           <img
-            src={`../public/assets/Images/Shop/${
-              ImgHover ? x.imgHover : x.img
-            }.avif`}
+            src={`../assets/Images/Shop/${ImgHover ? x.imgHover : x.img}.avif`}
             alt=""
             className="pb-[5px]"
             onMouseEnter={() => setImgHover(true)}
