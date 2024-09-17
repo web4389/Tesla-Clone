@@ -60,7 +60,7 @@ export const Navbar = (props) => {
           state.mainstate || navtoggle
             ? `bg-${props.bg ? props.bg : "white"} text-${textone}`
             : `text-${texttwo}`
-        } font-exo2 font-[525] z-[2] drop-shadow-lg`}
+        } font-exo2 font-[525] z-[2] drop-shadow-lg pt-2`}
       >
         <div
           className={`${
@@ -224,7 +224,7 @@ export const Navbar = (props) => {
             <div className="w-[300px] px-8 mb-6">
               <Link to="/models" className="select-none cursor-pointer ">
                 <img
-                  src="../public/assets/Images/Navbar/modelSlogo.avif"
+                  src="../assets/Images/Navbar/modelSlogo.avif"
                   className="select-none w-[100%]"
                   alt="ModelS Logo"
                 />
@@ -274,7 +274,7 @@ export const Navbar = (props) => {
         >
           <Link to={"/charging"} className="select-none cursor-pointer ">
             <img
-              src="../public/assets/Images/Navbar/charging.avif"
+              src="../assets/Images/Navbar/charging.avif"
               className="select-none w-[250px]"
               alt="ModelS Logo"
             />
@@ -289,7 +289,7 @@ export const Navbar = (props) => {
         >
           <Link to={"/shop"} className="select-none cursor-pointer ">
             <img
-              src="../public/assets/Images/Navbar/Shop-Charging.avif"
+              src="../assets/Images/Navbar/Shop-Charging.avif"
               className="select-none w-[300px]"
               alt="ModelS Logo"
             />

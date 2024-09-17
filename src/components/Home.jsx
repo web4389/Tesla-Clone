@@ -64,14 +64,14 @@ const Home = () => {
               muted
               loop
               className="max-md:hidden"
-              src="../public/assets/Images/home/Homepage-Model-Y.mp4"
+              src="../assets/Images/home/Homepage-Model-Y.mp4"
             ></video>
             <video
               autoPlay
               muted
               loop
               className="md:hidden"
-              src="../public/assets/Images/home/Homepage-Model-Y-Mobile.mp4"
+              src="../assets/Images/home/Homepage-Model-Y-Mobile.mp4"
             ></video>
           </div>
           <div className="">
@@ -79,7 +79,7 @@ const Home = () => {
               style={{ height: `${modelH.modelS}` }}
               className={`absolute top-[60px] text-white w-full justify-between items-center flex flex-col font-exo2`}
             >
-              <div className="text-center">
+              <div className="text-center pt-3">
                 <h1 className="text-5xl py-[3px] max-mb5:text-4xl">Model Y</h1>
                 <p className="text-[22px] max-mb5:text-[18px]">
                   Lease starting at $399/mo*
@@ -121,7 +121,7 @@ const Home = () => {
               <Link
                 to={"/inventory"}
                 className="bg-[#141414c9] text-white py-[8px] text-md px-[85px] active:outline hover:bg-[#141414da]
-               rounded-[5px] backdrop-blur-[5px]"
+               rounded-[5px] backdrop-blur-[5px] hover:!scale-110 transition duration-200"
               >
                 Order Now
               </Link>
@@ -137,12 +137,12 @@ const Home = () => {
 
           <div id="model-s">
             <img
-              src="../public/assets/Images/home/Homepage-Model-S.avif"
+              src="../assets/Images/home/Homepage-Model-S.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../public/assets/Images/home/Homepage-Model-S-Mobile.avif"
+              src="../assets/Images/home/Homepage-Model-S-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />
@@ -185,12 +185,12 @@ const Home = () => {
 
           <div id="model-x">
             <img
-              src="../public/assets/Images/home/Homepage-Model-X.avif"
+              src="../assets/Images/home/Homepage-Model-X.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../public/assets/Images/home/Homepage-Model-X-Mobile.avif"
+              src="../assets/Images/home/Homepage-Model-X-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />
@@ -213,12 +213,12 @@ const Home = () => {
 
           <div id="cyberTruck">
             <img
-              src="../public/assets/Images/home/Homepage-CyberTruck.avif"
+              src="../assets/Images/home/Homepage-CyberTruck.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../public/assets/Images/home/Homepage-CyberTruck-Mobile.avif"
+              src="../assets/Images/home/Homepage-CyberTruck-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />
@@ -244,12 +244,12 @@ const Home = () => {
 
           <div id="accessories">
             <img
-              src="../public/assets/Images/home/Homepage-Accessories.avif"
+              src="../assets/Images/home/Homepage-Accessories.avif"
               className="max-md:hidden"
               alt="Modol S"
             />
             <img
-              src="../public/assets/Images/home/Homepage-Accessories-Mobile.avif"
+              src="../assets/Images/home/Homepage-Accessories-Mobile.avif"
               className="md:hidden"
               alt="Modol S"
             />
