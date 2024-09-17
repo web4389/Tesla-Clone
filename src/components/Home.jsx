@@ -244,12 +244,12 @@ const Home = () => {
 
           <div id="accessories">
             <img
-              src="../assets/Images/home/Homepage-Accessories.avif"
+              src="../assets/Images/Homepage-Accessories.avif"
               className="max-md:hidden"
               alt="Accessories"
             />
             <img
-              src="../assets/Images/home/Homepage-Accessories-Mobile.avif"
+              src="../assets/Images/Homepage-Accessories-Mobile.avif"
               className="md:hidden"
               alt="Accessories"
             />
