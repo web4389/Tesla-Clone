@@ -37,7 +37,7 @@ const Home = () => {
         cyberTruck: cyberTruck + "px",
         accessories: accessories + "px",
       });
-    }, 2000);
+    }, 3000);
   }, []);
 
   return (
@@ -187,12 +187,12 @@ const Home = () => {
             <img
               src="../assets/Images/home/Homepage-Model-X.avif"
               className="max-md:hidden"
-              alt="Modol S"
+              alt="Modol X"
             />
             <img
               src="../assets/Images/home/Homepage-Model-X-Mobile.avif"
               className="md:hidden"
-              alt="Modol S"
+              alt="Modol X"
             />
           </div>
         </div>
@@ -213,14 +213,14 @@ const Home = () => {
 
           <div id="cyberTruck">
             <img
-              src="../assets/Images/home/Homepage-CyberTruck.avif"
+              src="../public/assets/Images/home/Homepage-CyberTruck.avif"
               className="max-md:hidden"
-              alt="Modol S"
+              alt="cyberTruck"
             />
             <img
-              src="../assets/Images/home/Homepage-CyberTruck-Mobile.avif"
+              src="../public/assets/Images/home/Homepage-CyberTruck-Mobile.avif"
               className="md:hidden"
-              alt="Modol S"
+              alt="cyberTruck"
             />
           </div>
         </div>
@@ -246,12 +246,12 @@ const Home = () => {
             <img
               src="../assets/Images/home/Homepage-Accessories.avif"
               className="max-md:hidden"
-              alt="Modol S"
+              alt="Accessories"
             />
             <img
               src="../assets/Images/home/Homepage-Accessories-Mobile.avif"
               className="md:hidden"
-              alt="Modol S"
+              alt="Accessories"
             />
           </div>
         </div>
