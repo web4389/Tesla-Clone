@@ -157,7 +157,7 @@ export const Navbar = (props) => {
               type="text"
               className={`text-black ${
                 search ? "w-[170px] animate-width" : "hidden w-[0px]"
-              } outline-none bg-transparent pl-2 py-[3px]`}
+              } outline-none bg-transparent pl-4 py-[5px]`}
               placeholder="Search"
             />
             <i
