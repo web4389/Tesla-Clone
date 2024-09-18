@@ -37,7 +37,7 @@ const Home = () => {
         cyberTruck: cyberTruck + "px",
         accessories: accessories + "px",
       });
-    }, 3000);
+    }, 2500);
   }, []);
 
   return (
@@ -88,7 +88,7 @@ const Home = () => {
               <div className="text-center">
                 <Link
                   to={"/inventory"}
-                  className="bg-[#141414c9] py-[8px] text-md px-[85px] active:outline hover:bg-[#141414da] rounded-[5px] backdrop-blur-[5px]"
+                  className="bg-[#141414c9] py-[8px] text-md px-[85px] active:outline rounded-[5px] backdrop-blur-[5px]"
                 >
                   Order Now
                 </Link>
@@ -117,11 +117,11 @@ const Home = () => {
                 After Est. Gas Savings
               </p>
             </div>
-            <div className="text-center">
+            <div className="text-center ">
               <Link
                 to={"/inventory"}
                 className="bg-[#141414c9] text-white py-[8px] text-md px-[85px] active:outline hover:bg-[#141414da]
-               rounded-[5px] backdrop-blur-[5px] hover:!scale-110 transition duration-200"
+               rounded-[5px] backdrop-blur-[5px]"
               >
                 Order Now
               </Link>
