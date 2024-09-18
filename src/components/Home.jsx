@@ -213,12 +213,12 @@ const Home = () => {
 
           <div id="cyberTruck">
             <img
-              src="../public/assets/Images/home/Homepage-CyberTruck.avif"
+              src="/assets/Images/home/Homepage-CyberTruck.avif"
               className="max-md:hidden"
               alt="cyberTruck"
             />
             <img
-              src="../public/assets/Images/home/Homepage-CyberTruck-Mobile.avif"
+              src="/assets/Images/home/Homepage-CyberTruck-Mobile.avif"
               className="md:hidden"
               alt="cyberTruck"
             />
@@ -244,12 +244,12 @@ const Home = () => {
 
           <div id="accessories">
             <img
-              src="../assets/Images/Homepage-Accessories.avif"
+              src="/assets/Images/home/Homepage-Accessories.avif"
               className="max-md:hidden"
               alt="Accessories"
             />
             <img
-              src="../assets/Images/Homepage-Accessories-Mobile.avif"
+              src="/assets/Images/home/Homepage-Accessories-Mobile.avif"
               className="md:hidden"
               alt="Accessories"
             />
